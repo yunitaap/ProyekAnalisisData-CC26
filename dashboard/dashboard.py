@@ -17,8 +17,8 @@ st.markdown("""
 # ============================================================
 # Load data
 # ============================================================
-df_day  = pd.read_csv('D:\College\Dicoding\ProyekAnalisisData-CC26\dashboard\data_day.csv')
-df_hour = pd.read_csv('D:\College\Dicoding\ProyekAnalisisData-CC26\dashboard\data_hour.csv')
+df_day  = pd.read_csv('dashboard/data_day.csv')
+df_hour = pd.read_csv('dashboard/data_hour.csv')
 
 df_day['dteday']  = pd.to_datetime(df_day['dteday'])
 df_hour['dteday'] = pd.to_datetime(df_hour['dteday'])
