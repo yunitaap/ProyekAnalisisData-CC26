@@ -1,30 +1,27 @@
-# 📊 Bike Sharing Dashboard ✨
+## 📊 Bike Sharing Dashboard ✨
 
 Dashboard interaktif berbasis **Streamlit** untuk menganalisis dataset Bike Sharing.  
 Dashboard ini menampilkan berbagai insight seperti tren penggunaan, distribusi waktu, dan pola perilaku pengguna.
 
 ---
 
-## 🚀 Fitur
+### 🚀 Fitur
 - Visualisasi tren penyewaan sepeda (harian & per jam)
 - Analisis pola penggunaan berdasarkan waktu
 - Dashboard interaktif menggunakan Streamlit
 
 ---
 
-## 📁 Struktur Proyek
+### 📁 Struktur Proyek
 ```
 ProyekAnalisisData-CC26/
-│
 ├── dashboard/
 │   ├── dashboard.py
 │   ├── data_day.csv
 │   └── data_hour.csv
-│
 ├── data/
 │   ├── day.csv
 │   └── hour.csv
-│
 ├── notebook.ipynb
 ├── requirements.txt
 └── README.md
@@ -32,7 +29,7 @@ ProyekAnalisisData-CC26/
 
 ---
 
-## ⚙️ Setup Environment (VS Code / venv)
+### ⚙️ Setup Environment (VS Code / venv)
 
 1. Buat virtual environment:
 ```
@@ -56,16 +53,10 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Menjalankan Aplikasi
+### ▶️ Menjalankan Aplikasi
 
 Jalankan dari root folder project:
 
 ```
 streamlit run dashboard/dashboard.py
 ```
-
----
-
-## 👩‍💻 Author
-Yunita  
-Submission Analisis Data - Coding Camp 2026 🚀
